@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Form validation</title>
+  <style type="text/css">
+    body{
+        background-image: -webkit-linear-gradient(bottom, #0250c5, #d43f8d),url("ano.png");
+        background-size: 100%;
+    }
+</style>
+  <link rel="stylesheet" href="login.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+  <div class="wrapper">
+    <header>Login</header>
+    <form action="#">
+      <div class="field email">
+        <div class="input-area">
+          <input type="text" placeholder="Email Address">
+          <i class="icon fas fa-envelope"></i>
+          <i class="error error-icon fas fa-exclamation-circle"></i>
+        </div>
+        <div class="error error-txt">Email can't be blank</div>
+      </div>
+      <div class="field password">                                                     
+        <div class="input-area">
+          <input type="password" placeholder="Password">
+          <i class="icon fas fa-lock"></i>
+          <i class="error error-icon fas fa-exclamation-circle"></i>
+        </div>
+        <div class="error error-txt">Password can't be blank</div>
+      </div>
+      <div class="pass-txt"><a href="http://127.0.0.1:5501/forgot.html">Forgot password?</a></div>
+       <!-- <input type="submit" value="Login" ><a href="http://127.0.0.1:5501/link2.html "></a> -->
+       <div class="btn" > <div class ="text-center"> <a href="http://127.0.0.1:5501/link2.html " style="color:antiquewhite">Login</a></div></div>
+
+    </form>
+    <div class="sign-txt">Not yet member? <a href="http://127.0.0.1:5501/signup-stu.html">Signup as student</a></div>
+    <div class="sign-txt"><a href="http://127.0.0.1:5501/signup-age.html">Signup as Agent</a></div>
+  </div>
+  <script src="login.js"></script>
+</body>
+</html>
+<!-- http://127.0.0.1:5501/link2.html -->
